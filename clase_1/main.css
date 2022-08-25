@@ -1,0 +1,20 @@
+body{
+    background-image: url(https://cdn.wallpapersafari.com/76/28/HqzPwk.gif);
+    font-family: 'Silkscreen', cursive;
+}
+
+h1{
+    font-family: 'Silkscreen', cursive;
+    color: greenyellow;
+    font-size: 50px;
+    
+}
+
+.portal-img{
+    justify-content: center;
+
+}
+
+.p{
+    color: greenyellow;
+}
