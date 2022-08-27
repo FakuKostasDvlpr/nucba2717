@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios</title>
+    </head>
+    <body>
+        <h1><u>Ejercicio Formularios</u></h1>
+         <form>
+
+            <!--1° form-->
+
+            <label for="nombre" style="color: red;">Nombre:</label>
+            <input type="text" name="form1" id="Nombre" placeholder="Ingrese su nombre">
+            <br><br>
+
+            <!--2° form-->
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="form2" id="apellido" placeholder="Ingrese su apellido">
+            <br><br>
+
+            <!--3° form-->
+
+            <label for="correo">Email:</label>
+            <input type="email" name="form3" id="correo" placeholder="Ingrese su Email" required>
+            <br><br>
+
+            <!--RADIOS-->
+
+            <h2><u>Ingrese su sexo</u></h2>
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="sexo" id="hombre">
+
+            <label for="mujer">Mujer</label>
+            <input type="radio" name="sexo" id="mujer">
+            <br><br>
+
+            <h2><u>Terminos y condiciones</u></h2>
+
+            <label for="term_1">Acepta no ser un alienigena</label>
+            <input type="checkbox" name="cbox1" id="term_1">
+            <br>
+            <label for="term_2">Acepta no destruir la raza humana</label>
+            <input type="checkbox" name="cbox2" id="term_2">
+            <br><br>
+            <input type="submit" name="Enviar" id="Boton">
+
+        </form>    
+    </body>
+</html>
